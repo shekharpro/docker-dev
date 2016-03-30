@@ -10,7 +10,7 @@ services:
       - "5004:5004"
     depends_on:
       - db
-      
+
   db:
     image: postgres
     environment:
@@ -31,15 +31,27 @@ services:
     volumes:
         - ./elk/config:/etc/logstash
 
-  goserver:
-    build: gocd-server
-    hostname: go-server
+  registry:
+    image: registry:2
+    ports:
+      - '5000:5000'
+
+  gocd-server:
+    image: gocd/gocd-server
     ports:
       - '8153:8153'
+    volumes:
+      - ./gocd/var/lib/go-server/addons:/var/lib/go-server/addons
+      - ./gocd/var/log/go-server:/var/log/go-server
+      - ./gocd/etc/go:/etc/go
+      - ./gocd/go-addons:/go-addons
+      - ./gocd/var/go:/var/go
 
-  goagent:
-    build: gocd-agent
-    links:
-      - goserver
+  gocd-agent:
+    image: andrewshawcare/gocd-docker-agent
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      AGENT_KEY: '123456789abcdef'
+      - GO_SERVER=gocd-server
+    links:
+      - gocd-server
