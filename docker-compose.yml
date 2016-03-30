@@ -48,7 +48,7 @@ services:
       - ./gocd/var/go:/var/go
 
   gocd-agent:
-    image: andrewshawcare/gocd-docker-agent
+    image: gocd/gocd-agent
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
