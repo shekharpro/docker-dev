@@ -1,4 +1,5 @@
 ﻿using Xunit;
+using WebApplication1.Controllers;
 
 public class Class1
 {
@@ -11,6 +12,9 @@ public class Class1
     [Fact]
     public void FailingTest()
     {
+        var myObj = new ValuesController();
+        Assert.Equal("Stringy", myObj.thingy);
+
         Assert.Equal(7, Add(4, 3));
     }
 

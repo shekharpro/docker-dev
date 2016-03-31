@@ -26,23 +26,23 @@ services:
         - "8080:80"
     volumes:
         - ./elk/config:/etc/logstash
-
-  gocd-server:
-    image: gocd/gocd-server
-    ports:
-      - '8153:8153'
-    volumes:
-      - ./gocd/var/lib/go-server/addons:/var/lib/go-server/addons
-      - ./gocd/var/log/go-server:/var/log/go-server
-      - ./gocd/etc/go:/etc/go
-      - ./gocd/go-addons:/go-addons
-      - ./gocd/var/go:/var/go
-
-  gocd-agent:
-    image: gocd/gocd-agent
-    environment:
-      - GO_SERVER=gocd-server
-    links:
-      - gocd-server
-    depends_on:
-      - gocd-server
+  #
+  # gocd-server:
+  #   image: gocd/gocd-server
+  #   ports:
+  #     - '8153:8153'
+  #   volumes:
+  #     - ./gocd/var/lib/go-server/addons:/var/lib/go-server/addons
+  #     - ./gocd/var/log/go-server:/var/log/go-server
+  #     - ./gocd/etc/go:/etc/go
+  #     - ./gocd/go-addons:/go-addons
+  #     - ./gocd/var/go:/var/go
+  #
+  # gocd-agent:
+  #   image: gocd/gocd-agent
+  #   environment:
+  #     - GO_SERVER=gocd-server
+  #   links:
+    #   - gocd-server
+    # depends_on:
+    #   - gocd-server
