@@ -11,7 +11,7 @@ public class Class1
     [Fact]
     public void FailingTest()
     {
-        Assert.Equal(6, Add(3, 3));
+        Assert.Equal(7, Add(4, 3));
     }
 
     int Add(int x, int y)
