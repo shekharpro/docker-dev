@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB57B994-57A0-405F-A599-2D539FFBD7A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6ACF6EA3-96AD-4F4B-994D-DE94AA703358}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication1", "src\WebApplication1\WebApplication1.xproj", "{AB285FCE-9DE5-43B6-939A-5AA1D8ECA809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D463D1AF-DD8D-4B0E-BDD8-60357BDE8440}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ClassLibrary1", "test\ClassLibrary1\ClassLibrary1.xproj", "{180B215E-1823-4113-9DA9-B3692BE27042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB285FCE-9DE5-43B6-939A-5AA1D8ECA809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB285FCE-9DE5-43B6-939A-5AA1D8ECA809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB285FCE-9DE5-43B6-939A-5AA1D8ECA809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB285FCE-9DE5-43B6-939A-5AA1D8ECA809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180B215E-1823-4113-9DA9-B3692BE27042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180B215E-1823-4113-9DA9-B3692BE27042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180B215E-1823-4113-9DA9-B3692BE27042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180B215E-1823-4113-9DA9-B3692BE27042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB285FCE-9DE5-43B6-939A-5AA1D8ECA809} = {DB57B994-57A0-405F-A599-2D539FFBD7A9}
+		{180B215E-1823-4113-9DA9-B3692BE27042} = {D463D1AF-DD8D-4B0E-BDD8-60357BDE8440}
+	EndGlobalSection
+EndGlobal

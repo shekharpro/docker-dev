@@ -1,0 +1,420 @@
+2016-03-31 13:05:09,666  INFO [main] GoSslSocketConnector:78 - Included ciphers: null
+2016-03-31 13:05:09,669  INFO [main] GoSslSocketConnector:79 - Excluded ciphers: null
+2016-03-31 13:05:09,670  INFO [main] GoSslSocketConnector:80 - Included protocols: null
+2016-03-31 13:05:09,676  INFO [main] GoSslSocketConnector:81 - Excluded protocols: null
+2016-03-31 13:05:09,682  INFO [main] GoSslSocketConnector:82 - Renegotiation Allowed: true
+2016-03-31 13:05:09,806  INFO [main] Jetty9Server:169 - Configuring Jetty using /etc/go/jetty.xml
+2016-03-31 13:05:09,943  INFO [main] GoServer:99 - Including addons: 
+2016-03-31 14:31:53,084  INFO [main] GoSslSocketConnector:78 - Included ciphers: null
+2016-03-31 14:31:53,100  INFO [main] GoSslSocketConnector:79 - Excluded ciphers: null
+2016-03-31 14:31:53,101  INFO [main] GoSslSocketConnector:80 - Included protocols: null
+2016-03-31 14:31:53,102  INFO [main] GoSslSocketConnector:81 - Excluded protocols: null
+2016-03-31 14:31:53,102  INFO [main] GoSslSocketConnector:82 - Renegotiation Allowed: true
+2016-03-31 14:31:53,278  INFO [main] Jetty9Server:169 - Configuring Jetty using /etc/go/jetty.xml
+2016-03-31 14:31:53,483  INFO [main] GoServer:99 - Including addons: 
+2016-03-31 14:32:34,525  INFO [main] GoSslSocketConnector:78 - Included ciphers: null
+2016-03-31 14:32:34,560  INFO [main] GoSslSocketConnector:79 - Excluded ciphers: null
+2016-03-31 14:32:34,564  INFO [main] GoSslSocketConnector:80 - Included protocols: null
+2016-03-31 14:32:34,570  INFO [main] GoSslSocketConnector:81 - Excluded protocols: null
+2016-03-31 14:32:34,573  INFO [main] GoSslSocketConnector:82 - Renegotiation Allowed: true
+2016-03-31 14:32:34,849  INFO [main] Jetty9Server:169 - Configuring Jetty using /etc/go/jetty.xml
+2016-03-31 14:32:35,100  INFO [main] GoServer:99 - Including addons: 
+2016-03-31 14:32:59,156  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2016-03-31 14:32:59,161  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2016-03-31 14:32:59,180  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@2fe48c89. This might take a while depending on the size of the database.
+2016-03-31 14:32:59,607  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:33:00,479  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:33:00,483  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:33:00,911  INFO [main] H2EventListener:34 - Database is opened
+2016-03-31 14:33:00,944  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:33:01,037  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:33:01,047  INFO [main] DbDeployMigration:63 - Database upgraded
+2016-03-31 14:33:01,048  INFO [main] H2EventListener:77 - Closing database
+2016-03-31 14:33:01,096  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2016-03-31 14:33:01,097  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2016-03-31 14:33:05,914  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:33:06,052  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:33:06,067  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:33:06,282  INFO [main] H2EventListener:34 - Database is opened
+2016-03-31 14:33:06,318  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:33:06,865  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/go-server/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2016-03-31 14:33:06,991  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@5770db1d.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1459434786991.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-03-31 14:33:07,315  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2016-03-31 14:33:07,338  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2016-03-31 14:33:07,371  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2016-03-31 14:33:07,380  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2016-03-31 14:33:07,428  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2016-03-31 14:33:07,562  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2016-03-31 14:33:07,568  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2016-03-31 14:33:09,656  INFO [main] ServerVersion:69 - [Startup] Go Version: 16.2.1(3027-07834a1f2ce79a13d42b03601698ef48f128a012)
+2016-03-31 14:33:09,677  INFO [main] ServerVersion:70 - [Startup] PID: 26
+2016-03-31 14:33:09,682  INFO [main] ServerVersion:71 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, java.vm.version=24.95-b01, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/var/lib/go-server, jetty.xml.file.name=jetty.xml, java.runtime.version=1.7.0_95-b00, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, cruise.config.dir=/etc/go, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, jetty.home=/var/lib/go-server, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.1.19-boot2docker, cruise.server.port=8153, user.home=/var/go, user.timezone=Etc/UTC, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, java.class.path=/usr/share/go-server/go.jar, user.name=go, jetty.base=/var/lib/go-server, cruise.config.file=/etc/go/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.7, sun.java.command=/usr/share/go-server/go.jar, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.7.0_95, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2016-03-31 14:33:09,687  INFO [main] ServerVersion:72 - [Startup] Environment Variables: {OLDPWD=/etc/service/go-server, LC_CTYPE=en_US.UTF-8, JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre, SHLVL=2, SERVER_WORK_DIR=/var/lib/go-server, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, USER=go, HOSTNAME=b4e10f746f46, PWD=/var/lib/go-server, GO_SERVER_PORT=8153, HOME=/var/go, UID=999, INITRD=no, GO_SERVER_SSL_PORT=8154, LANG=en_US.UTF-8}
+2016-03-31 14:33:17,162 ERROR [Thread-70] PluginSettingsMetadataLoader:72 - Failed to fetch Plugin Settings metadata for plugin : yum
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:38)
+	at com.thoughtworks.go.plugin.access.common.settings.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:45)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageAsRepositoryExtension.getPluginSettingsConfiguration(PackageAsRepositoryExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:63)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:262)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:152)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:109)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:72)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:288)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:319)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:286)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:210)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:198)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:183)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:36)
+	... 18 more
+2016-03-31 14:33:17,412  INFO [main] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:33:17,485  INFO [main] GoFileConfigDataSource:122 - Config file changed at 1459435489000
+2016-03-31 14:33:17,486  INFO [main] GoFileConfigDataSource:123 - Reloading config file: /etc/go/cruise-config.xml
+2016-03-31 14:33:17,677  INFO [main] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:33:17,782  INFO [main] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:33:17,784  INFO [main] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:33:17,785  INFO [main] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:33:17,786  INFO [main] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:33:17,824  INFO [main] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:33:17,905  INFO [main] PipelineRepository:88 - Start updating pipeline timeline
+2016-03-31 14:33:17,935  INFO [main] PipelineRepository:92 - Pipeline timeline updated
+2016-03-31 14:33:17,937  INFO [main] PipelineSqlMapDao:94 - Loading active pipelines into memory.
+2016-03-31 14:33:17,937  INFO [main] PipelineSqlMapDao:390 - Retriving Active Pipelines from Database...
+2016-03-31 14:33:17,945  INFO [main] PipelineSqlMapDao:96 - Done loading active pipelines into memory.
+2016-03-31 14:33:18,019  INFO [main] ConsoleActivityMonitor:67 - Found '0' building jobs. Added them with '2016-03-31T14:33:17.949Z' as the last heard time
+2016-03-31 14:33:18,067  INFO [main] RailsAssetsService:66 - Found rails assets manifest file named .sprockets-manifest-d33fb0a863b2d176be4dc03338085ff1.json 
+2016-03-31 14:33:18,103  INFO [main] RailsAssetsService:70 - Successfully read rails assets manifest file located at /var/lib/go-server/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails.new/public/assets/.sprockets-manifest-d33fb0a863b2d176be4dc03338085ff1.json
+2016-03-31 14:33:53,744  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:122 - Config file changed at 1459435523000
+2016-03-31 14:33:53,744  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:123 - Reloading config file: /etc/go/cruise-config.xml
+2016-03-31 14:33:53,865  INFO [cachedGoConfigRefreshExecutorThread] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:33:53,997  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:33:54,000  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:33:54,007  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:33:54,009  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:33:54,010  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:35:05,651  INFO [main] GoSslSocketConnector:78 - Included ciphers: null
+2016-03-31 14:35:05,664  INFO [main] GoSslSocketConnector:79 - Excluded ciphers: null
+2016-03-31 14:35:05,666  INFO [main] GoSslSocketConnector:80 - Included protocols: null
+2016-03-31 14:35:05,667  INFO [main] GoSslSocketConnector:81 - Excluded protocols: null
+2016-03-31 14:35:05,672  INFO [main] GoSslSocketConnector:82 - Renegotiation Allowed: true
+2016-03-31 14:35:05,893  INFO [main] Jetty9Server:169 - Configuring Jetty using /etc/go/jetty.xml
+2016-03-31 14:35:06,146  INFO [main] GoServer:99 - Including addons: 
+2016-03-31 14:35:27,938  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2016-03-31 14:35:27,967  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2016-03-31 14:35:27,986  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@7eb61363. This might take a while depending on the size of the database.
+2016-03-31 14:35:28,601  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:35:29,738  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:35:29,743  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:35:30,445  INFO [main] H2EventListener:34 - Database is opened
+2016-03-31 14:35:30,502  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:35:30,645  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:35:30,657  INFO [main] DbDeployMigration:63 - Database upgraded
+2016-03-31 14:35:30,658  INFO [main] H2EventListener:77 - Closing database
+2016-03-31 14:35:30,701  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2016-03-31 14:35:30,703  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2016-03-31 14:35:34,868  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:35:34,935  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:35:34,940  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:35:35,176  INFO [main] H2EventListener:34 - Database is opened
+2016-03-31 14:35:35,197  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:35:35,386  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/go-server/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2016-03-31 14:35:35,432  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@5047c54c.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1459434935432.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-03-31 14:35:35,551  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2016-03-31 14:35:35,562  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2016-03-31 14:35:35,571  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2016-03-31 14:35:35,573  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2016-03-31 14:35:35,593  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2016-03-31 14:35:35,637  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2016-03-31 14:35:35,639  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2016-03-31 14:35:36,931  INFO [main] ServerVersion:69 - [Startup] Go Version: 16.2.1(3027-07834a1f2ce79a13d42b03601698ef48f128a012)
+2016-03-31 14:35:36,951  INFO [main] ServerVersion:70 - [Startup] PID: 27
+2016-03-31 14:35:36,957  INFO [main] ServerVersion:71 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, java.vm.version=24.95-b01, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/var/lib/go-server, jetty.xml.file.name=jetty.xml, java.runtime.version=1.7.0_95-b00, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, cruise.config.dir=/etc/go, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, jetty.home=/var/lib/go-server, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.1.19-boot2docker, cruise.server.port=8153, user.home=/var/go, user.timezone=Etc/UTC, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, java.class.path=/usr/share/go-server/go.jar, user.name=go, jetty.base=/var/lib/go-server, cruise.config.file=/etc/go/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.7, sun.java.command=/usr/share/go-server/go.jar, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.7.0_95, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2016-03-31 14:35:36,960  INFO [main] ServerVersion:72 - [Startup] Environment Variables: {OLDPWD=/etc/service/go-server, LC_CTYPE=en_US.UTF-8, JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre, SHLVL=2, SERVER_WORK_DIR=/var/lib/go-server, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, USER=go, HOSTNAME=b4e10f746f46, PWD=/var/lib/go-server, GO_SERVER_PORT=8153, HOME=/var/go, UID=999, INITRD=no, GO_SERVER_SSL_PORT=8154, LANG=en_US.UTF-8}
+2016-03-31 14:35:44,444 ERROR [Thread-70] PluginSettingsMetadataLoader:72 - Failed to fetch Plugin Settings metadata for plugin : yum
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:38)
+	at com.thoughtworks.go.plugin.access.common.settings.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:45)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageAsRepositoryExtension.getPluginSettingsConfiguration(PackageAsRepositoryExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:63)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:262)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:152)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:109)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:72)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:288)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:319)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:286)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:210)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:198)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:183)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:36)
+	... 18 more
+2016-03-31 14:35:44,761  INFO [main] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:35:44,810  INFO [main] GoFileConfigDataSource:122 - Config file changed at 1459435636000
+2016-03-31 14:35:44,812  INFO [main] GoFileConfigDataSource:123 - Reloading config file: /etc/go/cruise-config.xml
+2016-03-31 14:35:45,012  INFO [main] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:35:45,124  INFO [main] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:35:45,125  INFO [main] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:35:45,126  INFO [main] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:35:45,127  INFO [main] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:35:45,139  INFO [main] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:35:45,234  INFO [main] PipelineRepository:88 - Start updating pipeline timeline
+2016-03-31 14:35:45,260  INFO [main] PipelineRepository:92 - Pipeline timeline updated
+2016-03-31 14:35:45,262  INFO [main] PipelineSqlMapDao:94 - Loading active pipelines into memory.
+2016-03-31 14:35:45,263  INFO [main] PipelineSqlMapDao:390 - Retriving Active Pipelines from Database...
+2016-03-31 14:35:45,271  INFO [main] PipelineSqlMapDao:96 - Done loading active pipelines into memory.
+2016-03-31 14:35:45,343  INFO [main] ConsoleActivityMonitor:67 - Found '0' building jobs. Added them with '2016-03-31T14:35:45.273Z' as the last heard time
+2016-03-31 14:35:45,402  INFO [main] RailsAssetsService:66 - Found rails assets manifest file named .sprockets-manifest-d33fb0a863b2d176be4dc03338085ff1.json 
+2016-03-31 14:35:45,438  INFO [main] RailsAssetsService:70 - Successfully read rails assets manifest file located at /var/lib/go-server/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails.new/public/assets/.sprockets-manifest-d33fb0a863b2d176be4dc03338085ff1.json
+2016-03-31 14:36:22,705  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:122 - Config file changed at 1459435672000
+2016-03-31 14:36:22,705  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:123 - Reloading config file: /etc/go/cruise-config.xml
+2016-03-31 14:36:22,763  INFO [cachedGoConfigRefreshExecutorThread] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:36:22,813  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:36:22,816  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:36:22,817  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:36:22,821  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:36:22,822  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:37:06,104  INFO [qtp1998789224-28] BuildRepositoryRemoteImpl:133 - [Agent Cookie] Agent [Agent [7c28b0204024, 172.18.0.7, 59ab4092-492f-462b-ac62-1e87c2c945fd]] at location [/var/lib/go-agent] asked for a new cookie, assigned [a2d15d26-1f60-4565-a561-c5e016f3b27a]
+2016-03-31 14:42:52,073  INFO [main] GoSslSocketConnector:78 - Included ciphers: null
+2016-03-31 14:42:52,089  INFO [main] GoSslSocketConnector:79 - Excluded ciphers: null
+2016-03-31 14:42:52,090  INFO [main] GoSslSocketConnector:80 - Included protocols: null
+2016-03-31 14:42:52,090  INFO [main] GoSslSocketConnector:81 - Excluded protocols: null
+2016-03-31 14:42:52,098  INFO [main] GoSslSocketConnector:82 - Renegotiation Allowed: true
+2016-03-31 14:42:52,319  INFO [main] Jetty9Server:169 - Configuring Jetty using /etc/go/jetty.xml
+2016-03-31 14:42:52,558  INFO [main] GoServer:99 - Including addons: 
+2016-03-31 14:43:15,144  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2016-03-31 14:43:15,167  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2016-03-31 14:43:15,181  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@21464ef5. This might take a while depending on the size of the database.
+2016-03-31 14:43:15,548  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:43:16,268  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:43:16,271  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:43:16,608  INFO [main] H2EventListener:34 - Database is opened
+2016-03-31 14:43:16,623  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:43:16,841  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:43:17,117  INFO [main] Migration_86:93 - migrating 0 rows
+2016-03-31 14:43:19,333  INFO [main] DbDeployMigration:63 - Database upgraded
+2016-03-31 14:43:19,335  INFO [main] H2EventListener:77 - Closing database
+2016-03-31 14:43:19,377  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2016-03-31 14:43:19,382  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2016-03-31 14:43:22,962  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:43:23,035  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:43:23,035  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2016-03-31 14:43:23,097  INFO [main] H2EventListener:34 - Database is opened
+2016-03-31 14:43:23,111  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2016-03-31 14:43:23,203  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/go-server/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2016-03-31 14:43:23,290  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@376421ed.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1459435403290.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-03-31 14:43:23,396  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2016-03-31 14:43:23,408  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2016-03-31 14:43:23,416  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2016-03-31 14:43:23,418  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2016-03-31 14:43:23,433  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2016-03-31 14:43:23,476  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2016-03-31 14:43:23,478  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2016-03-31 14:43:25,026  INFO [main] ServerVersion:69 - [Startup] Go Version: 16.2.1(3027-07834a1f2ce79a13d42b03601698ef48f128a012)
+2016-03-31 14:43:25,052  INFO [main] ServerVersion:70 - [Startup] PID: 28
+2016-03-31 14:43:25,053  INFO [main] ServerVersion:71 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, java.vm.version=24.95-b01, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/var/lib/go-server, jetty.xml.file.name=jetty.xml, java.runtime.version=1.7.0_95-b00, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, cruise.config.dir=/etc/go, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=51.0, jetty.home=/var/lib/go-server, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.1.19-boot2docker, cruise.server.port=8153, user.home=/var/go, user.timezone=Etc/UTC, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, java.class.path=/usr/share/go-server/go.jar, user.name=go, jetty.base=/var/lib/go-server, cruise.config.file=/etc/go/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.7, sun.java.command=/usr/share/go-server/go.jar, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.7.0_95, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2016-03-31 14:43:25,057  INFO [main] ServerVersion:72 - [Startup] Environment Variables: {OLDPWD=/etc/service/go-server, LC_CTYPE=en_US.UTF-8, JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre, SHLVL=2, SERVER_WORK_DIR=/var/lib/go-server, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, USER=go, HOSTNAME=720f669516a8, PWD=/var/lib/go-server, GO_SERVER_PORT=8153, HOME=/var/go, UID=999, INITRD=no, GO_SERVER_SSL_PORT=8154, LANG=en_US.UTF-8}
+2016-03-31 14:43:31,953 ERROR [Thread-70] PluginSettingsMetadataLoader:72 - Failed to fetch Plugin Settings metadata for plugin : yum
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:38)
+	at com.thoughtworks.go.plugin.access.common.settings.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:45)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageAsRepositoryExtension.getPluginSettingsConfiguration(PackageAsRepositoryExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:63)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:262)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:152)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:109)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:72)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:288)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:319)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:286)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:210)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:198)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:183)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:36)
+	... 18 more
+2016-03-31 14:43:32,183  INFO [main] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:43:32,222  INFO [main] GoFileConfigDataSource:122 - Config file changed at 1459436103000
+2016-03-31 14:43:32,224  INFO [main] GoFileConfigDataSource:123 - Reloading config file: /etc/go/cruise-config.xml
+2016-03-31 14:43:32,456  INFO [main] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:43:32,713 ERROR [main] ConfigRepository:184 - [CONFIG REPOSITORY] Could not fetch latest commit id
+org.eclipse.jgit.api.errors.NoHeadException: No HEAD exists and no explicit starting revision was specified
+	at org.eclipse.jgit.api.LogCommand.call(LogCommand.java:148)
+	at com.thoughtworks.go.service.ConfigRepository.revisions(ConfigRepository.java:130)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevCommit(ConfigRepository.java:182)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:169)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:165)
+	at com.thoughtworks.go.service.ConfigRepository.doLocked(ConfigRepository.java:120)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevision(ConfigRepository.java:165)
+	at com.thoughtworks.go.service.ConfigRepository.checkin(ConfigRepository.java:100)
+	at com.thoughtworks.go.config.GoFileConfigDataSource.internalLoad(GoFileConfigDataSource.java:341)
+	at com.thoughtworks.go.config.GoFileConfigDataSource.forceLoad(GoFileConfigDataSource.java:149)
+	at com.thoughtworks.go.config.GoFileConfigDataSource.load(GoFileConfigDataSource.java:127)
+	at com.thoughtworks.go.config.CachedFileGoConfig.loadFromDisk(CachedFileGoConfig.java:101)
+	at com.thoughtworks.go.config.CachedFileGoConfig.loadConfigIfNull(CachedFileGoConfig.java:82)
+	at com.thoughtworks.go.config.MergedGoConfig.loadConfigIfNull(MergedGoConfig.java:149)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:99)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:46)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:475)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.thoughtworks.go.server.Jetty9Server.start(Jetty9Server.java:90)
+	at com.thoughtworks.go.server.GoServer.startServer(GoServer.java:71)
+	at com.thoughtworks.go.server.GoServer.go(GoServer.java:63)
+	at com.thoughtworks.go.server.util.GoLauncher.main(GoLauncher.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.simontuffs.onejar.Boot.run(Boot.java:306)
+	at com.simontuffs.onejar.Boot.main(Boot.java:159)
+2016-03-31 14:43:32,719  INFO [main] ConfigRepository:171 - [CONFIG REPOSITORY] Unable retrieve current cruise config revision
+org.eclipse.jgit.api.errors.NoHeadException: No HEAD exists and no explicit starting revision was specified
+	at org.eclipse.jgit.api.LogCommand.call(LogCommand.java:148)
+	at com.thoughtworks.go.service.ConfigRepository.revisions(ConfigRepository.java:130)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevCommit(ConfigRepository.java:182)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:169)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:165)
+	at com.thoughtworks.go.service.ConfigRepository.doLocked(ConfigRepository.java:120)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevision(ConfigRepository.java:165)
+	at com.thoughtworks.go.service.ConfigRepository.checkin(ConfigRepository.java:100)
+	at com.thoughtworks.go.config.GoFileConfigDataSource.internalLoad(GoFileConfigDataSource.java:341)
+	at com.thoughtworks.go.config.GoFileConfigDataSource.forceLoad(GoFileConfigDataSource.java:149)
+	at com.thoughtworks.go.config.GoFileConfigDataSource.load(GoFileConfigDataSource.java:127)
+	at com.thoughtworks.go.config.CachedFileGoConfig.loadFromDisk(CachedFileGoConfig.java:101)
+	at com.thoughtworks.go.config.CachedFileGoConfig.loadConfigIfNull(CachedFileGoConfig.java:82)
+	at com.thoughtworks.go.config.MergedGoConfig.loadConfigIfNull(MergedGoConfig.java:149)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:99)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:46)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:475)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.thoughtworks.go.server.Jetty9Server.start(Jetty9Server.java:90)
+	at com.thoughtworks.go.server.GoServer.startServer(GoServer.java:71)
+	at com.thoughtworks.go.server.GoServer.go(GoServer.java:63)
+	at com.thoughtworks.go.server.util.GoLauncher.main(GoLauncher.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.simontuffs.onejar.Boot.run(Boot.java:306)
+	at com.simontuffs.onejar.Boot.main(Boot.java:159)
+2016-03-31 14:43:32,891  INFO [main] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:43:32,892  INFO [main] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:43:32,892  INFO [main] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:43:32,893  INFO [main] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:43:32,905  INFO [main] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:43:32,962  INFO [main] PipelineRepository:88 - Start updating pipeline timeline
+2016-03-31 14:43:33,020  INFO [main] PipelineRepository:92 - Pipeline timeline updated
+2016-03-31 14:43:33,022  INFO [main] PipelineSqlMapDao:94 - Loading active pipelines into memory.
+2016-03-31 14:43:33,023  INFO [main] PipelineSqlMapDao:390 - Retriving Active Pipelines from Database...
+2016-03-31 14:43:33,029  INFO [main] PipelineSqlMapDao:96 - Done loading active pipelines into memory.
+2016-03-31 14:43:33,110  INFO [main] ConsoleActivityMonitor:67 - Found '0' building jobs. Added them with '2016-03-31T14:43:33.040Z' as the last heard time
+2016-03-31 14:43:33,151  INFO [main] RailsAssetsService:66 - Found rails assets manifest file named .sprockets-manifest-d33fb0a863b2d176be4dc03338085ff1.json 
+2016-03-31 14:43:33,187  INFO [main] RailsAssetsService:70 - Successfully read rails assets manifest file located at /var/lib/go-server/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails.new/public/assets/.sprockets-manifest-d33fb0a863b2d176be4dc03338085ff1.json
+2016-03-31 14:44:09,000  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:122 - Config file changed at 1459436138000
+2016-03-31 14:44:09,001  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:123 - Reloading config file: /etc/go/cruise-config.xml
+2016-03-31 14:44:09,079  INFO [cachedGoConfigRefreshExecutorThread] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:44:09,160  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:44:09,162  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:44:09,163  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:44:09,165  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:44:09,166  INFO [cachedGoConfigRefreshExecutorThread] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:44:53,783  INFO [qtp400314935-21] AgentRegistrationController:200 - [Agent Auto Registration] Auto registering agent with uuid 6e3ea67f-47a0-4eed-9e6b-e0a53daf671c 
+2016-03-31 14:44:53,786  INFO [qtp400314935-21] GoConfigDao:194 - Config update request by anonymous is in queue - CompositeConfigCommand{commands=[com.thoughtworks.go.config.update.ApproveAgentCommand@2772f881, com.thoughtworks.go.config.update.UpdateResourceCommand@6d18f162, com.thoughtworks.go.config.update.UpdateEnvironmentsCommand@8f90e3]}
+2016-03-31 14:44:53,787  INFO [qtp400314935-21] GoConfigDao:198 - Config update request by anonymous is being processed
+2016-03-31 14:44:53,826  WARN [qtp400314935-21] UpdateEnvironmentsCommand:44 - [Agent Auto Registration] Agent with uuid 6e3ea67f-47a0-4eed-9e6b-e0a53daf671c could not be assigned to environment  as it does not exist.
+2016-03-31 14:44:53,930  INFO [qtp400314935-21] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:44:53,932  INFO [qtp400314935-21] GoFileConfigDataSource:247 - [Configuration Changed] Saving updated configuration.
+2016-03-31 14:44:54,018  INFO [qtp400314935-21] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:44:54,018  INFO [qtp400314935-21] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:44:54,019  INFO [qtp400314935-21] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:44:54,020  INFO [qtp400314935-21] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:44:54,020  INFO [qtp400314935-21] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:44:54,021  INFO [qtp400314935-21] GoConfigDao:211 - Config update request by anonymous is completed
+2016-03-31 14:44:54,743  INFO [qtp400314935-21] GoConfigDao:194 - Config update request by anonymous is in queue - UpdateAgentApprovalStatus{uuid='6e3ea67f-47a0-4eed-9e6b-e0a53daf671c', denied=false}
+2016-03-31 14:44:54,743  INFO [qtp400314935-21] GoConfigDao:198 - Config update request by anonymous is being processed
+2016-03-31 14:44:54,773  INFO [qtp400314935-21] MagicalGoConfigXmlWriter:103 - [Serializing Config] Generating config partial.
+2016-03-31 14:44:54,774  INFO [qtp400314935-21] GoFileConfigDataSource:247 - [Configuration Changed] Saving updated configuration.
+2016-03-31 14:44:54,917  INFO [qtp400314935-21] CachedFileGoConfig:235 - About to notify config listeners
+2016-03-31 14:44:54,921  INFO [qtp400314935-21] CachedFileGoConfig:243 - About to notify config listeners
+2016-03-31 14:44:54,924  INFO [qtp400314935-21] BuildAssignmentService:172 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2016-03-31 14:44:54,926  INFO [qtp400314935-21] CachedFileGoConfig:251 - Finished notifying all listeners
+2016-03-31 14:44:54,928  INFO [qtp400314935-21] CachedFileGoConfig:245 - Finished notifying all listeners
+2016-03-31 14:44:54,929  INFO [qtp400314935-21] GoConfigDao:211 - Config update request by anonymous is completed
+2016-03-31 14:45:00,436  INFO [qtp400314935-27] BuildRepositoryRemoteImpl:133 - [Agent Cookie] Agent [Agent [9e02c8bde025, 172.18.0.7, 6e3ea67f-47a0-4eed-9e6b-e0a53daf671c]] at location [/var/lib/go-agent] asked for a new cookie, assigned [eaf16561-a5a3-49e1-8ede-71ea50486cfb]
