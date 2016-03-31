@@ -1,0 +1,3 @@
+gocd/var/log/go-server/*.log
+gocd/etc/go/*
+!gocd/etc/go/cruise-config.xml
