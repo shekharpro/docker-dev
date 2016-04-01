@@ -1,1 +1,4 @@
 .DS_Store
+app/src/WebApplication1/.vs
+app/src/WebApplication1/src/WebApplication1/bin
+app/src/test/src/ClassLibrary1/bin
