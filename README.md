@@ -27,3 +27,8 @@ docker-compose up
 
 # done!
 ```
+
+To connect to a container directly:
+```
+docker exec -it "id of running container" bash
+```
