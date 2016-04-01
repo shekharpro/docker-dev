@@ -13,6 +13,7 @@ Docker Compose Environment
 Make sure the dependencies have been installed then...
 
 ```
+ docker-machine create --driver virtualbox --engine-env HTTP_PROXY=http://10.0.2.2:3128 --engine-env HTTPS_PROXY=http://10.0.2 .2:3128 default
 # Create a VM to run docker
 docker-machine create --driver virtualbox default
 
