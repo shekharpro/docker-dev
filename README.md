@@ -5,31 +5,31 @@ Docker Compose Environment
 
 ### Dependencies
 
-- https://www.virtualbox.org/
+Install Docker Toolbox which can be found here:
 - https://www.docker.com/products/docker-toolbox
 
 ### Quick Start
-
-Make sure the dependencies have been installed then...
-
+from the project directory, run:
 ```
- docker-machine create --driver virtualbox --engine-env HTTP_PROXY=http://10.0.2.2:3128 --engine-env HTTPS_PROXY=http://10.0.2 .2:3128 default
-# Create a VM to run docker
-docker-machine create --driver virtualbox default
+chmod +x start.sh
+./start.sh
+```
 
-# Connect docker machine to the VM
-docker-machine env default
-# (follow instructions)
-
-# Start the dev environment
-cd ./docker-dev
+You can now run:
+```
 docker-compose up
-# (internet happens)
+```
+To bring up all the containers.
 
-# done!
-```
+## Proxies
+By default the start.sh script will pickup HTTP_PROXY, HTTPS_PROXY and NO_PROXY
+environment variables from the host machine. If you are using cntlm, this is
+suboptimal.
 
-To connect to a container directly:
-```
-docker exec -it "id of running container" bash
-```
+The start.sh script allows you to specify some extra environment variables:
+- DOCKER_HTTP_PROXY
+- DOCKER_HTTPS_PROXY
+- DOCKER_NO_PROXY
+
+To save time, there is a script cntlm-start.sh which sets these variables
+appropriately and runs the start.sh script.
