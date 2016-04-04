@@ -2,9 +2,9 @@
 FROM microsoft/aspnet:1.0.0-rc1-update1-coreclr
 
 # If working behind a cntlm proxy, uncomment below
-#ENV HTTP_PROXY "http://10.0.2.2:3128"
-#ENV HTTPS_PROXY "http://10.0.2.2:3128"
-#ENV NO_PROXY "192.168.99.*,*.local.dev"
+ENV HTTP_PROXY "http://10.0.2.2:3128"
+ENV HTTPS_PROXY "http://10.0.2.2:3128"
+ENV NO_PROXY "192.168.99.*,*.local.dev"
 
 # Copy the project into folder and then restore packages
 COPY src/. /app

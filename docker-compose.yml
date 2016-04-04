@@ -2,13 +2,18 @@ version: '2'
 
 volumes:
   docker_elk_data:
-
+    driver: local
+  app_dnx_packages:
+    driver: local
+  
 services:
 
   app:
     build: app
     ports:
       - "5000:5000"
+    volumes:
+      - app_dnx_packages:/root/.dnx/packages
     depends_on:
       - db
 
