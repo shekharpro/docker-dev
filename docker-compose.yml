@@ -1,5 +1,10 @@
 version: '2'
+
+volumes:
+  docker_elk_data:
+
 services:
+
   app:
     build: app
     ports:
@@ -21,11 +26,29 @@ services:
       - "9090:9090"
 
   elk:
-    image: willdurand/elk
+    environment:
+      LOGSPOUT: ignore
+    image: willdurand/elk:kibana-4.4.2
     ports:
-        - "8080:80"
+      - "8080:80"
+      - "5050:5050"
+      - "5050:5050/udp"
     volumes:
-        - ./elk/config:/etc/logstash
+      - ./elk/config:/etc/logstash
+      - docker_elk_data:/data
+
+  logspout:
+    image: gliderlabs/logspout
+    environment:
+      DEBUG: 'true'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    links:
+      - elk
+    command: syslog://elk:5050
+    depends_on:
+      - elk
+
   #
   # gocd-server:
   #   image: gocd/gocd-server

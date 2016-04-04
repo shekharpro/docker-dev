@@ -3,7 +3,7 @@
 trap '[ "$?" -eq 0 ] || read -p "Looks like something went wrong in step ´$STEP´... Press return key to continue..."' EXIT
 
 VM=${DOCKER_MACHINE_NAME-default}
-DOCKER_MACHINE="${DOCKER_TOOLBOX_INSTALL_PATH}/docker-machine.exe"
+DOCKER_MACHINE="${DOCKER_TOOLBOX_INSTALL_PATH:-"C:\\Program Files\\Docker Toolbox"}/docker-machine.exe"
 
 STEP="Looking for vboxmanage.exe"
 if [ ! -z "$VBOX_MSI_INSTALL_PATH" ]; then
@@ -57,7 +57,7 @@ if [ $VM_EXISTS_CODE -eq 1 ]; then
   fi
 
   docker-machine create -d virtualbox $PROXY_ENV "${VM}"
- 
+
 fi
 
 STEP="Checking status on $VM"

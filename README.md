@@ -33,3 +33,15 @@ The start.sh script allows you to specify some extra environment variables:
 
 To save time, there is a script cntlm-start.sh which sets these variables
 appropriately and runs the start.sh script.
+
+### app Dockerfile and proxies
+If you are developing behind a proxy (using ./cntlm-start.sh) you will, for now,
+need to uncomment the following lines in app/Dockerfile before running
+docker-compose up:
+
+```
+# If working behind a cntlm proxy, uncomment below
+#ENV HTTP_PROXY "http://10.0.2.2:3128"
+#ENV HTTPS_PROXY "http://10.0.2.2:3128"
+#ENV NO_PROXY "192.168.99.*,*.local.dev"
+```
