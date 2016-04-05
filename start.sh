@@ -1,31 +1,16 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 trap '[ "$?" -eq 0 ] || read -p "Looks like something went wrong in step ´$STEP´... Press return key to continue..."' EXIT
 
 VM=${DOCKER_MACHINE_NAME-default}
-DOCKER_MACHINE="${DOCKER_TOOLBOX_INSTALL_PATH:-"C:\\Program Files\\Docker Toolbox"}/docker-machine.exe"
 
-STEP="Looking for vboxmanage.exe"
-if [ ! -z "$VBOX_MSI_INSTALL_PATH" ]; then
-  VBOXMANAGE="${VBOX_MSI_INSTALL_PATH}VBoxManage.exe"
-else
-  VBOXMANAGE="${VBOX_INSTALL_PATH}VBoxManage.exe"
-fi
+DOCKER_MACHINE="docker-machine"
+
+VBOXMANAGE="VBoxManage"
 
 BLUE='\033[1;34m'
 GREEN='\033[0;32m'
 NC='\033[0m'
-
-
-if [ ! -f "${DOCKER_MACHINE}" ]; then
-  echo "Docker Machine is not installed. Please re-run the Toolbox Installer and try again."
-  exit 1
-fi
-
-if [ ! -f "${VBOXMANAGE}" ]; then
-  echo "VirtualBox is not installed. Please re-run the Toolbox Installer and try again."
-  exit 1
-fi
 
 "${VBOXMANAGE}" list vms | grep \""${VM}"\" &> /dev/null
 VM_EXISTS_CODE=$?

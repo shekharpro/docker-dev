@@ -14,6 +14,7 @@ public class Class1
     {
         var myObj = new ValuesController();
         Assert.Equal("Stringy", myObj.thingy);
+        
 
         Assert.Equal(7, Add(4, 3));
     }
